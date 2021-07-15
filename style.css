@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    background: #ffffff;
+    width: 302px;
+    height: 407px;
+    border-radius: 20px;
+    border: 1px solid #EEEEEE;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 100px;
+    -webkit-box-shadow: 0px 7px 37px 9px rgba(245,245,245,1);
+    -moz-box-shadow: 0px 7px 37px 9px rgba(245,245,245,1);
+    box-shadow: 0px 7px 37px 9px rgba(245,245,245,1);
+}
+
+
+
+.image__card{
+    width: 284px;
+    height: 246px;
+    object-fit: cover;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.body__content{
+
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 6px;
+    
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    
+}
+
+
+.text__tittle{
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.rating{
+    font-size: 20px;
+
+}
+.price{
+    
+    font-weight: 200;
+
+}
+
+.prices__count{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button__cart{
+    text-decoration: none;
+    padding: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #EEEEEE;
+    
+}
+
+.button__cart:hover{
+    color: #000000;
+    background-color: #e2e2e2;
+  }
